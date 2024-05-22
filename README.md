@@ -8,10 +8,10 @@ SQL models and schema files.
 
 - #### tests/
 This folder contains tests to verify generated model table.
-Tests are added for below categories
-  -- tests associated with the appropriate columns of model and their dataypes.
-  -- Data completness by verifying rows.
-  -- verification of expected values for the given datatypes.
+Tests are added for below categories <br>
+    1. tests associated with the appropriate columns of model and their dataypes.  <br>
+    2. Data completness by verifying rows. <br>
+    3. Verification of expected values for the given datatypes. <br>
 
 - #### data/
 Dataset files loaded into source database tables.
