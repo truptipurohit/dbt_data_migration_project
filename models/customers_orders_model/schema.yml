@@ -2,7 +2,7 @@
 version: 2
 
 models:
-  - name: customers_orders_model
+  - name: customers
     description: "Customers data model"
     columns:
       - name: customer_id

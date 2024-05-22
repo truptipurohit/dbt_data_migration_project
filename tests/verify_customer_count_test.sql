@@ -4,7 +4,7 @@ with orders_model as (
     select
         customer_id,
     from
-        {{ ref('customers_orders_model') }}
+        {{ ref('customers') }}
 ),
 customers as (
     select

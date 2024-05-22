@@ -2,6 +2,6 @@
 
 SELECT *
 
-FROM {{ ref('customers_orders_model') }}
+FROM {{ ref('customers') }}
 
 WHERE last_name is null or len(first_name)=0

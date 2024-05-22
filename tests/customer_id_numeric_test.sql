@@ -2,6 +2,6 @@
 
 SELECT customer_id
 
-FROM {{ ref('customers_orders_model') }}
+FROM {{ ref('customers') }}
 
 WHERE customer_id < 0

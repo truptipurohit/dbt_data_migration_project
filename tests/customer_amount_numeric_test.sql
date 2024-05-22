@@ -2,6 +2,6 @@
 -- Amount must always be greater than or equal to zero
 SELECT customer_id
 
-FROM {{ ref('customers_orders_model') }}
+FROM {{ ref('customers') }}
 
 WHERE customer_lifetime_value < 0

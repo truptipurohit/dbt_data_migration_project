@@ -2,6 +2,6 @@
 
 SELECT *
  
-from {{ ref('customers_orders_model') }} 
+from {{ ref('customers') }} 
 
 where not IS_INTEGER(NUMBER_OF_ORDERS)
