@@ -3,17 +3,17 @@ dbt project to create model on the data loaded into snowflake database from sour
 
 ### Directory Structure
 
-  #### models/
+- #### models/
 SQL models and schema files.
 
-  #### tests/
+- #### tests/
 This folder contains tests to verify generated model table.
 Tests are added for below categories
   -- tests associated with the appropriate columns of model and their dataypes.
   -- Data completness by verifying rows.
   -- verification of expected values for the given datatypes.
 
- #### data/
+- #### data/
 Dataset files loaded into source database tables.
 
 ### How to run and genereate model table
