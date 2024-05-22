@@ -16,6 +16,11 @@ Tests are added for below categories <br>
 - #### data/
 Dataset files loaded into source database tables.
 
+### How to setup dbt
+To setup dbt , use dbt init passing required values for the account, database, username, password etc.
+These values will be stored in profiles.yml file.
+You can use `python3 -m pip install  dbt-snowflake`
+
 ### How to run and genereate model table
 Run command `dbt run`
 
