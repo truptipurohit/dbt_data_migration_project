@@ -1,0 +1,20 @@
+
+version: 2
+
+models:
+  - name: customers_orders_model
+    description: "Customers data model"
+    columns:
+      - name: customer_id
+        description: "customer id should not be null for this table"
+        data_tests:
+          - not_null
+
+  - name: customers_view
+    description: "Customers data"
+    columns:
+      - name: id
+        description: "customer id should not be null for this table"
+        data_tests:
+          - not_null
+          - unique
