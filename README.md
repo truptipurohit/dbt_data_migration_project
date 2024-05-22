@@ -23,8 +23,8 @@ Run command `dbt run`
 Run command `dbt test`
 
 ### Resources:
-- ####DBT
+- #### DBT
 Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- ####Snowflake
+- #### Snowflake
 https://docs.snowflake.com/en/developer-guide/snowflake-cli-v2/connecting/connect
 
